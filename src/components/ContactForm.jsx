@@ -48,7 +48,7 @@ function ContactForm({ onSubmit }) {
           </label>
           <Field
             className={styles.inputField}
-            type="number"
+            type="tel"
             name="number"
             id="number"
           />

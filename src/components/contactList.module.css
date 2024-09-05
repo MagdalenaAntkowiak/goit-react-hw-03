@@ -1,0 +1,42 @@
+.personUl {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-left: 0;
+}
+
+.personDetails {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 8px;
+}
+
+.divLi {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(84, 83, 83);
+  border-radius: 5px;
+  padding: 6px;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 12px;
+  width: 220px;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  gap: 8px;
+}
+
+.buttonDelete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(127, 124, 124);
+  border-radius: 4px;
+  width: 50px;
+  height: 25px;
+}
